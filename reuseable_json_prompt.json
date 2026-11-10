@@ -1,0 +1,173 @@
+
+{
+  "prompt_name": "Authentic Tamil Visual Storytelling Generator",
+  "framework": "SCALE",
+  "cultural_theme": "Tamil Nadu - South Indian Culture",
+  "generation_mode": "IMAGE_AND_SHORT_VIDEO",
+
+  "cultural_authenticity": {
+    "identity": "Authentic Tamil cultural representation",
+    "region": "{{TAMIL_NADU_REGION_OR_DISTRICT}}",
+    "language": "Tamil",
+    "dialect": "{{REGIONAL_TAMIL_DIALECT}}",
+    "traditions": "{{SPECIFIC_TAMIL_TRADITIONS}}",
+    "clothing_guidelines": [
+      "Traditional Kanchipuram silk sarees where appropriate",
+      "Cotton sarees for everyday rural settings",
+      "Veshti and traditional shirts for men",
+      "Authentic regional jewellery and accessories",
+      "Appropriate hairstyles and traditional flowers"
+    ],
+    "cultural_accuracy": [
+      "Respect Tamil history, identity and traditions",
+      "Avoid mixing unrelated Indian cultural elements",
+      "Use authentic regional architecture and objects",
+      "Represent rituals and customs accurately",
+      "Avoid stereotypical representations",
+      "Do not assume all Tamil communities share identical customs"
+    ]
+  },
+
+  "S": {
+    "subject": {
+      "main_subject": "{{MAIN_CHARACTER_OR_OBJECT}}",
+      "secondary_subjects": "{{SUPPORTING_CHARACTERS_OR_OBJECTS}}",
+      "age_group": "{{AGE_GROUP}}",
+      "appearance": "{{PHYSICAL_APPEARANCE}}",
+      "traditional_attire": "{{TAMIL_TRADITIONAL_CLOTHING}}",
+      "hairstyle": "{{REGIONALLY_APPROPRIATE_HAIRSTYLE}}",
+      "accessories": "{{TRADITIONAL_ACCESSORIES}}",
+      "cultural_objects": "{{AUTHENTIC_TAMIL_OBJECTS}}",
+      "emotional_identity": "{{EMOTIONAL_CHARACTER}}",
+      "character_consistency": "Preserve the same facial features, attire, accessories and physical appearance throughout all generated scenes."
+    }
+  },
+
+  "C": {
+    "composition": {
+      "image_composition": {
+        "shot_type": "{{CLOSEUP_MEDIUM_OR_WIDE}}",
+        "camera_angle": "{{EYE_LEVEL_LOW_ANGLE_OR_HIGH_ANGLE}}",
+        "subject_position": "{{CENTER_LEFT_OR_RIGHT}}",
+        "foreground": "{{FOREGROUND_ELEMENTS}}",
+        "background": "{{BACKGROUND_ELEMENTS}}",
+        "visual_hierarchy": "{{PRIMARY_AND_SECONDARY_FOCUS}}",
+        "depth_of_field": "{{SHALLOW_MEDIUM_OR_DEEP}}",
+        "aspect_ratio": "{{IMAGE_ASPECT_RATIO}}"
+      },
+      "video_composition": {
+        "opening_shot": "{{VIDEO_OPENING_FRAME}}",
+        "camera_movement": "{{PAN_TILT_DOLLY_TRACKING_OR_STATIC}}",
+        "shot_sequence": [
+          "{{SHOT_1}}",
+          "{{SHOT_2}}",
+          "{{SHOT_3}}"
+        ],
+        "transitions": "Natural cinematic transitions",
+        "closing_shot": "{{FINAL_VIDEO_FRAME}}",
+        "aspect_ratio": "{{VIDEO_ASPECT_RATIO}}"
+      }
+    }
+  },
+
+  "A": {
+    "action": {
+      "main_activity": "{{PRIMARY_ACTIVITY}}",
+      "image_moment": "{{MOST_VISUALLY_COMPELLING_STATIC_MOMENT}}",
+      "video_action_sequence": [
+        {
+          "time": "0-3 seconds",
+          "action": "{{OPENING_ACTION}}"
+        },
+        {
+          "time": "3-7 seconds",
+          "action": "{{MAIN_ACTION}}"
+        },
+        {
+          "time": "7-12 seconds",
+          "action": "{{CLOSING_ACTION}}"
+        }
+      ],
+      "body_language": "{{NATURAL_BODY_MOVEMENTS}}",
+      "facial_expression": "{{FACIAL_EXPRESSION}}",
+      "environmental_motion": "{{WIND_WATER_SMOKE_FIRE_OR_NATURAL_MOVEMENT}}",
+      "interaction": "{{CHARACTER_INTERACTION}}",
+      "physical_realism": "Natural human movements, realistic physics, believable interactions and smooth motion."
+    }
+  },
+
+  "L": {
+    "location": {
+      "country": "India",
+      "state": "Tamil Nadu",
+      "district": "{{DISTRICT}}",
+      "specific_location": "{{VILLAGE_CITY_TEMPLE_HOUSE_OR_LANDMARK}}",
+      "environment": "{{RURAL_URBAN_INDOOR_OR_OUTDOOR}}",
+      "architecture": "{{AUTHENTIC_REGIONAL_ARCHITECTURE}}",
+      "surroundings": "{{LOCAL_LANDSCAPE_AND_CULTURAL_ELEMENTS}}",
+      "time_of_day": "{{MORNING_AFTERNOON_EVENING_OR_NIGHT}}",
+      "season": "{{SEASON_OR_FESTIVAL}}",
+      "weather": "{{WEATHER_CONDITIONS}}",
+      "environmental_authenticity": "Accurately reflect the specified Tamil Nadu geographical and cultural setting."
+    }
+  },
+
+  "E": {
+    "esthetic": {
+      "visual_style": "{{PHOTOREALISTIC_CINEMATIC_DOCUMENTARY_OR_ARTISTIC}}",
+      "color_palette": "{{TAMIL_THEME_COLOR_PALETTE}}",
+      "lighting": "{{GOLDEN_HOUR_NATURAL_SOFT_OR_DRAMATIC}}",
+      "textures": "{{FABRIC_SKIN_ARCHITECTURE_AND_NATURAL_TEXTURES}}",
+      "mood": "{{JOYFUL_EMOTIONAL_TRADITIONAL_OR_FESTIVE}}",
+      "art_direction": "Authentic Tamil cultural storytelling with professional visual quality.",
+      "image_quality": "High-resolution detailed photography",
+      "video_quality": "4K cinematic video",
+      "video_frame_rate": "24 FPS",
+      "audio": {
+        "background_music": "{{TAMIL_FOLK_CLASSICAL_OR_INSTRUMENTAL_MUSIC}}",
+        "ambient_sound": "{{AUTHENTIC_ENVIRONMENTAL_SOUNDS}}",
+        "dialogue": "{{TAMIL_DIALOGUE_OR_NONE}}",
+        "voice_style": "{{NATURAL_REGIONAL_TAMIL_ACCENT}}",
+        "sound_effects": "{{RELEVANT_NATURAL_SOUND_EFFECTS}}"
+      }
+    }
+  },
+
+  "output_settings": {
+    "image": {
+      "enabled": true,
+      "aspect_ratio": "{{IMAGE_ASPECT_RATIO}}",
+      "resolution": "High resolution",
+      "format": "Photorealistic image"
+    },
+    "short_video": {
+      "enabled": true,
+      "duration_seconds": 12,
+      "aspect_ratio": "{{VIDEO_ASPECT_RATIO}}",
+      "resolution": "1080p or 4K",
+      "frame_rate": "24 FPS",
+      "format": "Cinematic short video",
+      "audio_enabled": true,
+      "use_generated_image_as_reference": true
+    }
+  },
+
+  "negative_prompt": [
+    "Incorrect Tamil traditional attire",
+    "Unrelated regional cultural elements",
+    "Inaccurate religious symbols",
+    "Generic Indian cultural representation",
+    "Incorrect Tamil architecture",
+    "Distorted human anatomy",
+    "Unnatural facial expressions",
+    "Inconsistent character appearance",
+    "Unrealistic movements",
+    "Flickering objects",
+    "Unnatural camera movement",
+    "Unwanted text",
+    "Watermarks",
+    "Artificial-looking skin"
+  ],
+
+  "final_instruction": "Generate two visually consistent outputs: one culturally authentic Tamil-themed image and one cinematic short video. Use the same subject, clothing, cultural identity, location, props, color palette and art direction in both. The video should animate the visual concept naturally through realistic character movements, environmental motion and cinematic camera work. Prioritize authentic Tamil regional representation over generic Indian aesthetics."
+}

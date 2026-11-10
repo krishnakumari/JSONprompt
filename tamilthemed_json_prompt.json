@@ -1,0 +1,127 @@
+
+{
+  "prompt_name": "Tamil Village Morning",
+  "framework": "SCALE",
+
+  "S": {
+    "subject": {
+      "main_subject": "A traditional Tamil village woman aged around 35",
+      "secondary_subjects": "A few village children in the background",
+      "age_group": "Adult",
+      "appearance": "Natural South Indian appearance",
+      "traditional_attire": "Simple traditional cotton saree in earthy colors",
+      "hairstyle": "Traditional long braided hair decorated with jasmine flowers",
+      "accessories": "Small traditional earrings and bangles",
+      "cultural_objects": "Kolam powder, brass water pot and traditional broom",
+      "emotional_identity": "Peaceful and happy"
+    }
+  },
+
+  "C": {
+    "composition": {
+      "image_composition": {
+        "shot_type": "Wide cinematic shot",
+        "camera_angle": "Eye-level",
+        "subject_position": "Woman positioned slightly to the right",
+        "foreground": "Detailed white kolam on the ground",
+        "background": "Traditional Tamil tiled-roof house",
+        "visual_hierarchy": "Woman and kolam are the primary focus",
+        "depth_of_field": "Natural cinematic depth",
+        "aspect_ratio": "4:5"
+      },
+      "video_composition": {
+        "opening_shot": "Wide shot of the village house at sunrise",
+        "camera_movement": "Slow dolly-in",
+        "shot_sequence": [
+          "Wide view of the courtyard",
+          "Medium shot of the woman drawing kolam",
+          "Close-up of her hands completing the kolam"
+        ],
+        "transitions": "Smooth cinematic cuts",
+        "closing_shot": "Completed kolam with warm morning sunlight",
+        "aspect_ratio": "9:16"
+      }
+    }
+  },
+
+  "A": {
+    "action": {
+      "main_activity": "Drawing traditional kolam in the morning",
+      "image_moment": "Woman carefully drawing a beautiful kolam",
+      "video_action_sequence": [
+        {
+          "time": "0-3 seconds",
+          "action": "Morning sunlight falls on the traditional village courtyard"
+        },
+        {
+          "time": "3-7 seconds",
+          "action": "Woman gracefully draws kolam using white rice flour"
+        },
+        {
+          "time": "7-12 seconds",
+          "action": "She completes the kolam and smiles naturally"
+        }
+      ],
+      "body_language": "Natural hand movements and traditional posture",
+      "facial_expression": "Gentle smile",
+      "environmental_motion": "Gentle breeze moves nearby leaves and jasmine flowers",
+      "interaction": "Natural village surroundings",
+      "physical_realism": "Realistic hand movements and authentic kolam drawing"
+    }
+  },
+
+  "L": {
+    "location": {
+      "country": "India",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "specific_location": "Traditional Tamil village courtyard",
+      "environment": "Outdoor rural environment",
+      "architecture": "Traditional tiled-roof Tamil house",
+      "surroundings": "Coconut trees, earthen courtyard and traditional entrance",
+      "time_of_day": "Early morning",
+      "season": "Pleasant season",
+      "weather": "Clear morning",
+      "environmental_authenticity": "Authentic Tamil village atmosphere"
+    }
+  },
+
+  "E": {
+    "esthetic": {
+      "visual_style": "Photorealistic cinematic photography",
+      "color_palette": "Earthy brown, traditional white, green and warm yellow",
+      "lighting": "Soft golden morning sunlight",
+      "textures": "Cotton fabric, natural earth, rice flour and old tiled roofing",
+      "mood": "Peaceful, nostalgic and traditional",
+      "art_direction": "Authentic rural Tamil Nadu visual storytelling",
+      "audio": {
+        "background_music": "Soft Tamil folk instrumental music",
+        "ambient_sound": "Morning birds, gentle breeze and village ambience",
+        "dialogue": "None",
+        "voice_style": "None",
+        "sound_effects": "Natural kolam powder movement"
+      }
+    }
+  },
+
+  "output_settings": {
+    "image": {
+      "enabled": true,
+      "aspect_ratio": "4:5",
+      "resolution": "High resolution",
+      "format": "Photorealistic image"
+    },
+    "short_video": {
+      "enabled": true,
+      "duration_seconds": 12,
+      "aspect_ratio": "9:16",
+      "resolution": "4K",
+      "frame_rate": "24 FPS",
+      "format": "Cinematic short video",
+      "audio_enabled": true,
+      "use_generated_image_as_reference": true
+    }
+  },
+
+  "final_instruction": "Create a highly authentic Tamil village morning. Maintain the same woman, clothing, house, kolam and surroundings across the image and video. Avoid mixing traditions from other Indian regions."
+}
